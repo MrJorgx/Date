@@ -1,9 +1,8 @@
-package es.unileon.prg1.date;
+package src.es.unileon.prg.tema8;
 
 public class DateException extends Exception {
 	
-	public DateException(String msg){
-		super(msg);
+	public DateException(String message){
+		super(message);
 	}
-
 }
